@@ -113,8 +113,17 @@
               "devServerTarget": "webAppChatFrontend:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/webAppChatFrontend",
+            "netlifyToken": "",
+            "siteId": "d35c2c40-2d7f-4fc9-9dd1-8fe6f0bc723b"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "webAppChatFrontend"
 }
