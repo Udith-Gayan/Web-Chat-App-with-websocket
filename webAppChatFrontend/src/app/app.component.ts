@@ -10,7 +10,7 @@ import $ from 'jquery';
 })
 export class AppComponent {
     // private serverUrl = 'http://localhost:8080/socket';     //used to connect to the server
-       private serverUrl = 'https://web-chat-app-by-udith-backend.herokuapp.com/socket';
+       private serverUrl = 'https://web-chat-app-by-udith-2.herokuapp.com/socket';
 
     title = 'WebSockets chat';
   private stompClient;
