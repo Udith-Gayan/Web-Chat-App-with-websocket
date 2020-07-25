@@ -1,4 +1,8 @@
 # Web-Chat-App-with-websockect
+## Introduction
+
+This is a public chat app created using Angular and Spring Boot.
+
 
 This contains the frontend and backend as well.
 
